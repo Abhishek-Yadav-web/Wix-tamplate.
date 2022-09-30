@@ -1,0 +1,68 @@
+.about{
+    width: 100%;
+    height: 60vh;
+    background: url('https://static.wixstatic.com/media/ea26fd_95b2e73defb047c99f383914cd106864~mv2_d_4856_2033_s_2.jpg/v1/fill/w_980,h_749,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ea26fd_95b2e73defb047c99f383914cd106864~mv2_d_4856_2033_s_2.jpg');
+    background-size:cover; 
+    background-position:top left;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: 500;
+    position: relative;
+}
+
+.about::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.2;
+}
+
+.contentBx{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -50%;
+    min-height: 125vh !important;
+    width: 73%;
+    padding: 40px 40px;
+    color: #fff;
+    z-index:500;
+}
+
+.contentBx h1{
+    margin-bottom: 15px;
+}
+
+.contentBx h2{
+    max-width: 60%;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    text-decoration: underline;
+    margin-bottom: 80px;
+}
+
+.contentBx h3{
+    max-width: 40%;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.imgBx{
+    position: absolute;
+    width: 325px;
+    height: 450px;
+    bottom: 200px;
+    right: 225px;
+    background: #000;
+}
+
+.imgBx img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

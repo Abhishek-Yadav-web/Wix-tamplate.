@@ -1,0 +1,20 @@
+.social{
+    position: fixed;
+    height: 91vh;
+    bottom: 0;
+    right: 0;
+    padding: 25px 25px;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 999;
+}
+
+.social-icon{
+    color: #fff;
+    font-size: 16px !important;
+    margin: 8px 0;
+    cursor: pointer;
+}
